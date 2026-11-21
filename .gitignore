@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# env & secrets — в репозитории только .env.example
+.env
+.env.*
+!.env.example
+
+# загруженные файлы академии (медиатека не нужна в репозитории)
+data/uploads/
+
+# drizzle-kit артефакты (генерируются по месту)
+drizzle/
+
+# misc
+.DS_Store
+*.log
+coverage/
+.cache/
+.vercel
